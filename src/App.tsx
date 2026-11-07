@@ -741,7 +741,7 @@ function Community() {
             </span>
           </div>
           <p className="text-stone-600 text-[15px] leading-relaxed">
-            I orrganised and coordinated the voting process for the election of the Faculty of Engineering Students Association leadership. This role required planning logistics, ensuring procedural fairness and communicating with the student body.
+            I organised and coordinated the voting process for the election of the Faculty of Engineering Students Association leadership. This role required planning logistics, ensuring procedural fairness and communicating with the student body.
           </p>
         </div>
       </div>
@@ -821,7 +821,7 @@ function Contact() {
         Get in touch.
       </h2>
       <p className="text-stone-600 text-[15px] leading-relaxed mb-8 max-w-xl">
-        I am open to conversations about graduate programmes, research opportunities, and collaborations in robotics, mechatronics and related fields. Feel free to reach out by email or connect on LinkedIn.
+        I am open to conversations about graduate programmes, research opportunities and collaborations in robotics, mechatronics and related fields. Feel free to reach out by email or connect on LinkedIn.
       </p>
 
       <div className="space-y-4">
