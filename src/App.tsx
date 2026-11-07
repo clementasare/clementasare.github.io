@@ -281,7 +281,7 @@ function About() {
         <p>
           When I am home, I spend most of my spare time developing skills in programming, robotics, electronics and AI. I gain these skills through projects and  
 		  taking online certificate courses. I have built a computer vision system for motion tacking and detection using OpenCV.  
-		  These direction I have taken is intentional, I want to work at the intersection of mechanical engineering, control systems, and machine intelligence.
+		  This direction I have taken is intentional, I want to work at the intersection of mechanical engineering, control systems, and machine intelligence.
         </p>
         <p>
           I am now seeking a Master's degree in Mechatronics or Robotics to bring these experiences together and develop the expertise to contribute to research and engineering work in automation, robotics and intelligent system design.
@@ -321,7 +321,7 @@ function Research() {
         </svg>
       ),
       description:
-        'Using cameras and sensors to help machines understand their surroundings. My project on real-time motion detection using OpenCV was a starting point. I want to go deeper into object recognition, depth estimation, and how robotic systems can sense and iteract with their environment. I am drawn to problems where vision enables a mechanical system to respond to its environment like inspecting equipment, tracking objects, or guiding a manipulator.',
+        'Using cameras and sensors to help machines understand their surroundings. My project on real-time motion detection using OpenCV was a starting point. I want to go deeper into object recognition, depth estimation, and how robotic systems can sense and iteract with their environment. I am drawn to problems where vision enables a mechanical system to respond to its environment like inspecting equipment, tracking objects or guiding a manipulator.',
     },
     {
       title: 'Control Systems & Industrial Automation',
@@ -804,7 +804,7 @@ function Skills() {
       </div>
 
       <p className="mt-8 text-sm text-stone-400">
-        Proficiency varies across these tools. My strongest programming experience is in Python. I am currently developing competence in ROS 2, arduino and computer vision through online courses and personal projects.
+        Proficiency varies across these tools. My strongest programming experience is in Python. I am developing competence in embedded systems(Arduino), robotics & computer vision and agentic AI develpement through online courses and personal projects.
       </p>
     </Section>
   );
