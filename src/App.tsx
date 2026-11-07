@@ -821,7 +821,7 @@ function Contact() {
         Get in touch.
       </h2>
       <p className="text-stone-600 text-[15px] leading-relaxed mb-8 max-w-xl">
-        I am open to conversations about graduate programmes, research opportunities, and collaborations in robotics, mechatronics, and related fields. Feel free to reach out by email or connect on LinkedIn.
+        I am open to conversations about graduate programmes, research opportunities, and collaborations in robotics, mechatronics and related fields. Feel free to reach out by email or connect on LinkedIn.
       </p>
 
       <div className="space-y-4">
