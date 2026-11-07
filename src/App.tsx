@@ -187,6 +187,7 @@ function Portrait() {
   );
 }
 
+
 function Hero() {
   return (
     <section id="home" className="pt-28 pb-12 md:pt-36 md:pb-20">
@@ -198,11 +199,14 @@ function Hero() {
             <h1 className="font-serif text-3xl sm:text-4xl md:text-[2.7rem] font-bold text-stone-900 leading-tight tracking-tight">
               Clement Asare
             </h1>
+
             <p className="mt-2.5 text-base md:text-lg text-stone-500 font-medium">
               Mechanical Engineer · Graduate Applicant in Robotics &amp; Mechatronics
             </p>
+
             <p className="mt-4 text-stone-600 leading-relaxed max-w-xl text-[15px]">
               Mechanical engineer with industrial experience in mining equipment maintenance and with fundamental and practical knowledge in computer vision, agentic AI, embedded systems and robotics programming. Preparing for graduate study in mechatronics or robotics.
+            </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
@@ -216,6 +220,7 @@ function Hero() {
                 </svg>
                 Download CV
               </a>
+
               <a
                 href="https://linkedin.com/in/c-asare"
                 target="_blank"
@@ -227,6 +232,7 @@ function Hero() {
                   <path d="M3.5 8.5L8.5 3.5M8.5 3.5H4.5M8.5 3.5V7.5" />
                 </svg>
               </a>
+
               <a
                 href="mailto:clementasare999@gmail.com"
                 className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-stone-600 bg-stone-100/60 rounded-lg hover:bg-stone-200/60 transition-colors border border-stone-200/60"
@@ -244,6 +250,7 @@ function Hero() {
     </section>
   );
 }
+
 
 /* ─────────────────────────────────────────────
    01 — About
