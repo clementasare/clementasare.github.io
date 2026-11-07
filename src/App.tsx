@@ -209,11 +209,24 @@ function Hero() {
             </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
+              {/* View CV - Opens directly in browser tab */}
               <a
                 href="Clement_Asare_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-sage-600 text-white text-sm font-medium rounded-lg hover:bg-sage-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 focus:ring-offset-cream"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-sage-600 text-white text-sm font-medium rounded-lg hover:bg-sage-700 transition-colors focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 focus:ring-offset-cream"
+              >
+                View CV
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3.5 8.5L8.5 3.5M8.5 3.5H4.5M8.5 3.5V7.5" />
+                </svg>
+              </a>
+
+              {/* Download CV - Forces download prompt */}
+              <a
+                href="Clement_Asare_CV.pdf"
+                download="Clement_Asare_CV.pdf"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-sage-700 bg-sage-50 rounded-lg hover:bg-sage-100 transition-colors border border-sage-200/60"
               >
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M7.5 1.5v9M4 8l3.5 3.5L11 8M2.5 13h10" />
@@ -221,6 +234,7 @@ function Hero() {
                 Download CV
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="https://linkedin.com/in/c-asare"
                 target="_blank"
@@ -233,6 +247,7 @@ function Hero() {
                 </svg>
               </a>
 
+              {/* Email */}
               <a
                 href="mailto:clementasare999@gmail.com"
                 className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-stone-600 bg-stone-100/60 rounded-lg hover:bg-stone-200/60 transition-colors border border-stone-200/60"
