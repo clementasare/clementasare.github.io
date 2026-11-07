@@ -804,7 +804,7 @@ function Skills() {
       </div>
 
       <p className="mt-8 text-sm text-stone-400">
-        Proficiency varies across these tools. My strongest programming experience is in Python. I am developing competence in embedded systems(Arduino), robotics & computer vision and agentic AI develpement through online courses and personal projects.
+        Proficiency varies across these tools. My strongest programming experience is in Python. I am developing competence in Embedded Systems(Arduino), Robotics & Computer Vision and Agentic AI develpement through online courses and personal projects.
       </p>
     </Section>
   );
